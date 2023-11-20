@@ -1,0 +1,85 @@
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: pink;
+}
+
+
+
+header {
+  background-color: #336;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.about, .portfolio {
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-family: 'Georgia', serif;
+  font-size: 24px;
+  border-bottom: 2px solid #333;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+p {
+  line-height: 1.6;
+}
+
+
+.project {
+  border: 20px solid #ddd;
+  padding: 10px;
+  background-color: white;
+  transition: transform 2s;
+}
+
+.project:hover {
+  transform: translateY(-8px);
+}
+
+.project img {
+  max-width: 20%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+}
